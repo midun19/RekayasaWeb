@@ -1,0 +1,1034 @@
+body::before {
+    content: "";
+    background-image: url(Image/Background.jpg);
+    opacity:0.5;
+    position:absolute;
+    top:0;
+    bottom:0;
+    right:0;
+    left:0;
+    background-repeat: no-repeat;
+    background-size:contain;
+    z-index:-1;
+}
+
+
+body {
+    background-color:rgb(201, 201, 201);
+    position: relative;
+
+}
+
+ul {
+    list-style-type:none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:black;
+    position: -webkit-sticky;
+    position: relative;
+    top: 0;
+    opacity: 90%;
+}
+
+li {
+    float:right;
+}
+
+li a {
+    display: block;
+    color: rgb(230, 230, 230);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: rgb(55, 55, 56);
+}
+
+
+#restless   {
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+   
+}
+
+#wejangan {
+    text-align: center;
+    margin-top: 1px;
+    font-weight: bold;
+    font-size: 25px;
+  
+}
+
+#gambar {
+    display: block;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: auto;
+    margin-left: auto;
+    width: 25%;
+    padding: 0px;
+}
+
+#paribasa {
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+#awalan {
+    text-align: justify;
+    line-height: 1.3;
+    font-size: 20px;
+    font-family:'Times New Roman', Times, serif;
+}
+
+#umat {
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+
+.izzan {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    line-height: 1.2;
+}
+
+
+.izzan img {
+    display: block;
+    width: 25%;
+    margin: auto;
+    border-radius: 10px;
+    -webkit-filter: drop-shadow(6px 6px 12px #222);
+}
+
+
+
+.empatawal {
+    box-sizing: border-box;
+    width: 100%;
+    height: 460px;
+    padding: 10px;
+    margin: auto;
+}
+
+.empatawal::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.yudi {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    line-height: 1.2;
+    float:left;
+    padding: 30px;
+    text-align: center;
+}
+
+.yudi img {
+    display:block;
+    width: 240px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    -webkit-filter: drop-shadow(6px 6px 12px #222);;
+}
+
+.lakas {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    line-height: 1.2;
+    float: left;
+    padding: 30px;
+    text-align: center;
+}
+
+.lakas img {
+    display: block;
+    width: 240px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    -webkit-filter: drop-shadow(6px 6px 12px #222);
+}
+
+.raka {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    line-height: 1.2;
+    float: right;
+    padding: 30px;
+    text-align: center;
+}
+
+.raka img {
+    display: block;
+    width: 240px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    -webkit-filter: drop-shadow(6px 6px 12px #222);}
+
+.erik {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    line-height: 1.2;
+    float:right;
+    padding: 30px;
+    text-align: center;
+}
+
+.erik img {
+    display: block;
+    width: 240px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    -webkit-filter: drop-shadow(6px 6px 12px #222);
+}
+
+
+
+
+.empatkedua {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 20px;
+    margin: auto;
+}
+
+.empatkedua::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.zhillan {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    line-height: 1.2;
+    float:left;
+    padding: 30px;
+    text-align: center;
+}
+
+.zhillan img {
+    display: block;
+    width: 240px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    -webkit-filter: drop-shadow(6px 6px 12px #222);
+}
+
+.wita {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    line-height: 1.2;
+    float:left;
+    padding: 30px;
+    text-align: center;
+}
+
+.wita img {
+    display: block;
+    width: 240px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    -webkit-filter: drop-shadow(6px 6px 12px #222);
+}
+
+.pepno {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    line-height: 1.2;
+    float:right;
+    padding: 30px;
+    text-align: center;
+}
+
+.pepno img {
+    display: block;
+    width: 240px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    -webkit-filter: drop-shadow(6px 6px 12px #222);
+}
+
+.gilang {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    line-height: 1.2;
+    float:right;
+    padding: 30px;
+    text-align: center;
+}
+
+.gilang img {
+    display: block;
+    width: 240px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    -webkit-filter: drop-shadow(6px 6px 12px #222);
+}
+
+
+.empatketiga {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 20px;
+    margin: auto;
+}
+
+.empatketiga::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.febri {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    line-height: 1.2;
+    float:left;
+    padding: 30px;
+    text-align: center;
+}
+
+.febri img {
+    display: block;
+    width: 240px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    -webkit-filter: drop-shadow(6px 6px 12px #222);
+}
+
+
+.ferdy {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    line-height: 1.2;
+    float:left;
+    padding: 30px;
+    text-align: center;
+}
+
+.ferdy img {
+    display: block;
+    width: 240px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    -webkit-filter: drop-shadow(6px 6px 12px #222);
+}
+
+.yuda {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    line-height: 1.2;
+    float:right;
+    padding: 30px;
+    text-align: center;
+}
+
+.yuda img {
+    display: block;
+    width: 240px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    -webkit-filter: drop-shadow(6px 6px 12px #222);
+}
+
+.diffy {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    line-height: 1.2;
+    float:right;
+    padding: 30px;
+    text-align: center;
+}
+
+.diffy img {
+    display: block;
+    width: 240px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    -webkit-filter: drop-shadow(6px 6px 12px #222);
+}
+
+.empatkeempat {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 20px;
+    margin: auto;
+}
+
+.empatkeempat::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.bela {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    line-height: 1.2;
+    float:left;
+    padding: 30px;
+    text-align: center;
+}
+
+.bela img {
+    display: block;
+    width: 240px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    -webkit-filter: drop-shadow(6px 6px 12px #222);
+}
+
+.cerin {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    line-height: 1.2;
+    float:left;
+    padding: 30px;
+    text-align: center;
+}
+
+.cerin img {
+    display: block;
+    width: 240px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    -webkit-filter: drop-shadow(6px 6px 12px #222);
+}
+
+.chinka {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    line-height: 1.2;
+    float:right;
+    padding: 30px;
+    text-align: center;
+}
+
+.chinka img {
+    display: block;
+    width: 240px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    -webkit-filter: drop-shadow(6px 6px 12px #222);
+}
+
+.dhea {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    line-height: 1.2;
+    float:right;
+    padding: 30px;
+    text-align: center;
+}
+
+.dhea img {
+    display: block;
+    width: 240px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    -webkit-filter: drop-shadow(6px 6px 12px #222);
+}
+
+
+.empatkelima {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 20px;
+    margin: auto;
+}
+
+.empatkelima::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.elga {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    line-height: 1.2;
+    float:left;
+    padding: 30px;
+    text-align: center;
+}
+
+.elga img {
+    display: block;
+    width: 240px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    -webkit-filter: drop-shadow(6px 6px 12px #222);
+}
+
+.elsa {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    line-height: 1.2;
+    float:left;
+    padding: 30px;
+    text-align: center;
+}
+
+.elsa img {
+    display: block;
+    width: 240px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    -webkit-filter: drop-shadow(6px 6px 12px #222);
+}
+
+.frans {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    line-height: 1.2;
+    float:right;
+    padding: 30px;
+    text-align: center;
+}
+
+.frans img {
+    display: block;
+    width: 240px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    -webkit-filter: drop-shadow(6px 6px 12px #222);
+}
+
+.gina {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    line-height: 1.2;
+    float:right;
+    padding: 30px;
+    text-align: center;
+}
+
+.gina img {
+    display: block;
+    width: 240px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    -webkit-filter: drop-shadow(6px 6px 12px #222);
+}
+
+
+
+.empatkeenam {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 20px;
+    margin: auto;
+}
+
+.empatkeenam::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.ica {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    line-height: 1.2;
+    float:left;
+    padding: 30px;
+    text-align: center;
+}
+
+.ica img {
+    display: block;
+    width: 240px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    -webkit-filter: drop-shadow(6px 6px 12px #222);
+}
+
+.iis {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    line-height: 1.2;
+    float:left;
+    padding: 30px;
+    text-align: center;
+}
+
+.iis img {
+    display: block;
+    width: 240px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    -webkit-filter: drop-shadow(6px 6px 12px #222);
+}
+
+.inggrit {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    line-height: 1.2;
+    float:right;
+    padding: 30px;
+    text-align: center;
+}
+
+.inggrit img {
+    display: block;
+    width: 240px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    -webkit-filter: drop-shadow(6px 6px 12px #222);
+}
+
+.khoe {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    line-height: 1.2;
+    float:right;
+    padding: 30px;
+    text-align: center;
+}
+
+.khoe img {
+    display: block;
+    width: 240px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    -webkit-filter: drop-shadow(6px 6px 12px #222);
+}
+
+
+
+
+.empatketujuh {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 20px;
+    margin: auto;
+}
+
+.empatketujuh::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.lina {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    line-height: 1.2;
+    float:left;
+    padding: 30px;
+    text-align: center;
+}
+
+.lina img {
+    display: block;
+    width: 240px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    -webkit-filter: drop-shadow(6px 6px 12px #222);
+}
+
+.lucy {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    line-height: 1.2;
+    float:left;
+    padding: 30px;
+    text-align: center;
+}
+
+.lucy img {
+    display: block;
+    width: 240px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    -webkit-filter: drop-shadow(6px 6px 12px #222);
+}
+
+.mayang {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    line-height: 1.2;
+    float:right;
+    padding: 30px;
+    text-align: center;
+}
+
+.mayang img {
+    display: block;
+    width: 240px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    -webkit-filter: drop-shadow(6px 6px 12px #222);
+}
+
+.okta {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    line-height: 1.2;
+    float:right;
+    padding: 30px;
+    text-align: center;
+}
+
+.okta img {
+    display: block;
+    width: 240px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    -webkit-filter: drop-shadow(6px 6px 12px #222);
+}
+
+
+
+
+.empatkedelapan {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 20px;
+    margin: auto;
+}
+
+.empatkedelapan::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.reza {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    line-height: 1.2;
+    float:left;
+    padding: 30px;
+    text-align: center;
+}
+
+.reza img {
+    display: block;
+    width: 240px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    -webkit-filter: drop-shadow(6px 6px 12px #222);
+}
+
+.riana {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    line-height: 1.2;
+    float:left;
+    padding: 30px;
+    text-align: center;
+}
+
+.riana img {
+    display: block;
+    width: 240px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    -webkit-filter: drop-shadow(6px 6px 12px #222);
+}
+
+.rika {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    line-height: 1.2;
+    float:right;
+    padding: 30px;
+    text-align: center;
+}
+
+.rika img {
+    display: block;
+    width: 240px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    -webkit-filter: drop-shadow(6px 6px 12px #222);
+}
+
+.siska {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    line-height: 1.2;
+    float:right;
+    padding: 30px;
+    text-align: center;
+}
+
+.siska img {
+    display: block;
+    width: 240px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    -webkit-filter: drop-shadow(6px 6px 12px #222);
+}
+
+
+
+
+.empatkesembilan {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 20px;
+    margin: auto;
+}
+
+.empatkesembilan::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.thiaristi {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    line-height: 1.2;
+    float:left;
+    padding: 30px;
+    text-align: center;
+}
+
+.thiaristi img {
+    display: block;
+    width: 240px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    -webkit-filter: drop-shadow(6px 6px 12px #222);
+}
+
+.tiaamara {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    line-height: 1.2;
+    float:left;
+    padding: 30px;
+    text-align: center;
+}
+
+.tiaamara img {
+    display: block;
+    width: 240px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    -webkit-filter: drop-shadow(6px 6px 12px #222);
+}
+
+.tinaagus {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    line-height: 1.2;
+    float:right;
+    padding: 30px;
+    text-align: center;
+}
+
+.tinaagus img {
+    display: block;
+    width: 240px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    -webkit-filter: drop-shadow(6px 6px 12px #222);
+}
+
+.tinasri {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    line-height: 1.2;
+    float:right;
+    padding: 30px;
+    text-align: center;
+}
+
+.tinasri img {
+    display: block;
+    width: 240px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    -webkit-filter: drop-shadow(6px 6px 12px #222);
+}
+
+
+
+
+.tigaakhir {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 20px;
+    margin: auto;
+}
+
+.tigaakhir::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.wening {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    line-height: 1.2;
+    float:left;
+    padding: 95px;
+    text-align: center;
+}
+
+.wening img {
+    display: block;
+    width: 240px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    -webkit-filter: drop-shadow(6px 6px 12px #222);
+}
+
+.winda {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    line-height: 1.2;
+    float:left;
+    padding: 95px;
+    text-align: center;
+}
+
+.winda img {
+    display: block;
+    width: 240px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    -webkit-filter: drop-shadow(6px 6px 12px #222);
+}
+
+.yusi {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    line-height: 1.2;
+    float:left;
+    padding: 95px;
+    text-align: center;
+}
+
+.yusi img {
+    display: block;
+    width: 240px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    -webkit-filter: drop-shadow(6px 6px 12px #222);
+}
+
+
+.barangkal {
+    width: 100%;
+    height: 700px;
+    background-color: rgb(167, 167, 167);
+}
+
+#gallery {
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.column {
+    float: left;
+    width: 10%;
+    padding: 15px;
+  }
+  
+  .row{
+      width: 99%;
+      height: 120px;
+      overflow-x: hidden;
+      overflow-y:scroll;
+      display: inline-block;
+  }
+  
+  /* Style the images inside the grid */
+  .column img {
+    opacity: 0.8; 
+    cursor: pointer; 
+    width: 100%;
+    border-radius: 10px;
+  }
+  
+  .column img:hover {
+    opacity: 1;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* The expanding image container */
+  .container {
+    position: relative;
+    display: none;
+  }
+
+  .container #expandedImg {
+      width: 50%;
+      float: right;
+      margin-right: 50px;
+      border-radius: 10px;
+  }
+
+  .isigaleri {
+    width: 500px;
+    float: left;
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+  }
